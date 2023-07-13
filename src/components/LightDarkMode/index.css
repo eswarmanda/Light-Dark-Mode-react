@@ -1,0 +1,43 @@
+.container {
+  background-color: white;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dark-mode {
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 300px;
+  border-radius: 10px;
+  color: #ffffff;
+}
+.light-mode {
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 300px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: .1px;
+  color: black;
+}
+.heading {
+  font-size: x-large;
+}
+.btn {
+  background-color: lightgray;
+  height: 35px;
+  border-radius: 5px;
+  border-width: 0px;
+}
